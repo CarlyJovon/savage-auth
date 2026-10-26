@@ -1,6 +1,23 @@
 {
-  "name": "node-authentication",
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "1. Clone repo 2. run `npm install`",
+  "homepage": "https://github.com/CarlyJovon/savage-auth#readme",
+  "bugs": {
+    "url": "https://github.com/CarlyJovon/savage-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlyJovon/savage-auth.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "bcrypt": "*",
     "bcrypt-nodejs": "^0.0.3",
@@ -8,7 +25,7 @@
     "connect-flash": "~0.1.1",
     "cookie-parser": "~1.4.3",
     "ejs": "~2.5.2",
-    "express": "^4.16.4",
+    "express": "^4.22.3",
     "express-session": "^1.15.6",
     "lodash": "^4.17.20",
     "method-override": "~2.3.6",

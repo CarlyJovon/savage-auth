@@ -30,6 +30,7 @@ var userSchema = mongoose.Schema({
 
 });
 
+//Generating Passwords - hash and the hash is stored in the database***
 // generating a hash
 userSchema.methods.generateHash = function(password) {
     return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
